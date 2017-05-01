@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+          maximum-scale=1.0, minimum-scale=1.0">
+    <title>Simon Game</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            background-color: black;
+        }
+        .container{
+            postion: relative;
+            width: 640px;
+            margins: 0 auto;
+            /*height: 300px;*/
+            /*border: solid;*/
+            /*border-color: white;*/
+
+        }
+        #back{
+            positon: absolute;
+            top: 170px;
+            width: 640px;
+            height: 640px;
+            background-color: white;
+            border-radius: 310px;
+        }
+        .button{
+            width: 300px;
+            height: 300px;
+            float: left;
+            margin: 10px;
+
+        }
+        .green{
+            background: green;
+            border-top-left-radius: 300px;
+        }
+        .red{
+            background-color: red;
+            border-top-right-radius: 300%;
+            float: right;
+            clear: right;
+
+        }
+        .yellow{
+            background-color: yellow;
+            border-bottom-left-radius: 300%;
+            float: left;
+            clear: left;
+        }
+        .blue{
+            background-color: mediumblue;
+            /*float: left;*/
+            /*margin: 20px;*/
+            border-bottom-right-radius: 100%;
+            float: right;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Let's Play Simon</h1>
+
+    <div class= 'container'>
+        <div id="back">
+            <!--<div id="box1" class="colorButton" style="box-shadow: black 0px 0px 0px 30 px inset;"></div>-->
+            <!--<div id="box2" class="box"></div>-->
+            <!--<div id="box3" class="box"></div>-->
+            <!--<div id="box4" class="box"></div>-->
+            <div class="green button"></div>
+
+        <!--<div id="back">-->
+            <div class="red button"></div>
+            <div class="circle"></div>
+        <!--</div>-->
+        <!--<div id="back">-->
+            <div class="blue button"></div>
+        <!--</div>-->
+        <!--<div id="back">-->
+            <div class="yellow button"></div>
+        </div>
+        <!--</div>-->
+        <div class="circle"></div>
+        </div>
+    </div>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"></script>
+</body>
+
+</html>
